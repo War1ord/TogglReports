@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TogglAPI.Net\TogglAPI.NetStandard\TogglAPI.NetStandard.csproj" />
+    <ProjectReference Include="..\TogglReports.Contracts\TogglReports.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

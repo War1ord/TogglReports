@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TogglReports", "TogglReports\TogglReports.csproj", "{99BB93CC-FFD1-4013-8353-F5858AFBC442}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TogglReports.Tests", "TogglReports.Tests\TogglReports.Tests.csproj", "{AD4269C7-A9F3-44BE-AE41-C595E4029023}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TogglReports.Repositories", "TogglReports.Repositories\TogglReports.Repositories.csproj", "{2EA6E244-B118-413E-A141-6B5D9BC7148A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TogglReports.Contracts", "TogglReports.Contracts\TogglReports.Contracts.csproj", "{AB76EEEE-ADB3-4EA0-A1FB-FDA84A52177A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TogglReports.Models", "TogglReports.Models\TogglReports.Models.csproj", "{D927C9CD-8B60-417C-A2F5-499DB5EC6E77}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TogglAPI.NetStandard", "TogglAPI.Net\TogglAPI.NetStandard\TogglAPI.NetStandard.csproj", "{92BCA90D-AE93-4FDA-8AE7-A1BB8AE2E423}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99BB93CC-FFD1-4013-8353-F5858AFBC442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99BB93CC-FFD1-4013-8353-F5858AFBC442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99BB93CC-FFD1-4013-8353-F5858AFBC442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99BB93CC-FFD1-4013-8353-F5858AFBC442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD4269C7-A9F3-44BE-AE41-C595E4029023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD4269C7-A9F3-44BE-AE41-C595E4029023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD4269C7-A9F3-44BE-AE41-C595E4029023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD4269C7-A9F3-44BE-AE41-C595E4029023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EA6E244-B118-413E-A141-6B5D9BC7148A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EA6E244-B118-413E-A141-6B5D9BC7148A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EA6E244-B118-413E-A141-6B5D9BC7148A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EA6E244-B118-413E-A141-6B5D9BC7148A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB76EEEE-ADB3-4EA0-A1FB-FDA84A52177A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB76EEEE-ADB3-4EA0-A1FB-FDA84A52177A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB76EEEE-ADB3-4EA0-A1FB-FDA84A52177A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB76EEEE-ADB3-4EA0-A1FB-FDA84A52177A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D927C9CD-8B60-417C-A2F5-499DB5EC6E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D927C9CD-8B60-417C-A2F5-499DB5EC6E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D927C9CD-8B60-417C-A2F5-499DB5EC6E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D927C9CD-8B60-417C-A2F5-499DB5EC6E77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92BCA90D-AE93-4FDA-8AE7-A1BB8AE2E423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92BCA90D-AE93-4FDA-8AE7-A1BB8AE2E423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92BCA90D-AE93-4FDA-8AE7-A1BB8AE2E423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92BCA90D-AE93-4FDA-8AE7-A1BB8AE2E423}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20BAFC34-4037-45DB-8A3B-F7CAEA4432D8}
+	EndGlobalSection
+EndGlobal
